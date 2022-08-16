@@ -1,0 +1,86 @@
+*
+ {
+    padding:0;
+    margin: 0px;;
+    box-sizing: border-Box;
+ }
+ body{
+    background-image:url(gradient-4k.jpg);
+    background-size: cover;
+    background-attachment:center;
+    font-family: sans-serif;
+ }
+ .title
+ {
+   position: absolute;
+   bottom: 400px;
+   right: 400px;
+ 
+
+   background-color: rgb(225, 2, 110);
+   color: white;
+   padding-left: 100px;
+   padding-right: 100px;
+    
+ }
+ .menu-Bar
+ {
+    background:rgb(225, 3, 110);
+    text-align: center;
+ }
+ .menu-Bar ul
+ {
+    display: inline-flex;
+    list-style:none;
+    color:#fff;
+ }
+ .menu-Bar ul li
+ {
+    width:120px;
+    margin: 15px;
+    padding: 15px;
+ }
+ .menu-Bar ul li a
+ {
+    text-decoration: none;
+    color: #fff;
+ }
+ .active,.menu-Bar ul li:hover
+ {
+    background:  #1d2671;
+    border-radius: 3px;
+ }
+ .sub-menu-1
+ {
+    display:none;
+ }
+ .menu-Bar ul li:hover .sub-menu-1
+ {
+    display: block;
+    position: absolute;
+    background:#1d2671;
+    margin-top:16px;
+    margin-left:-15px;
+ }
+ .menu-Bar ul li:hover .sub-menu-1 ul
+ {
+    display:block;
+    margin:10px;
+ }
+ .menu-Bar ul li:hover .sub-menu-1 ul li
+ {
+    width:150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(225, 3, 110);
+    background: transparent;
+    border: radius -11px;
+    text-align: left;
+ }
+ .menu-Bar ul li:hover .sub-menu-1 ul li:last-child
+ {
+    border-bottom: none;
+ }
+ .menu-Bar ul li:hover .sub-menu-1 ul li a:hover
+ {
+    color: rgb(254, 2, 166);
+ }
